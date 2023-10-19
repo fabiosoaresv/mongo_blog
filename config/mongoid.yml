@@ -1,0 +1,19 @@
+development:
+  clients:
+    default:
+      database: mongo_blog_development
+      hosts:
+        - localhost:27017
+      options:
+        user: myrootuser
+        password: myrootpassword
+
+test:
+  clients:
+    default:
+      database: mongo_blog_test
+      hosts:
+        - localhost:27017
+      options:
+        user: myrootuser
+        password: myrootpassword
