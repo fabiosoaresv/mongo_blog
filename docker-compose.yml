@@ -7,4 +7,4 @@ services:
       - "27017:27017"
     volumes:
       - ./data/db:/data/db
-    command: mongod --bind_ip_all # Isso permite conexões de qualquer host
+    command: mongod --bind_ip_all
