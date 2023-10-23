@@ -4,9 +4,6 @@ development:
       database: mongo_blog_development
       hosts:
         - localhost:27017
-      options:
-        user: myrootuser
-        password: myrootpassword
 
 test:
   clients:
@@ -14,6 +11,3 @@ test:
       database: mongo_blog_test
       hosts:
         - localhost:27017
-      options:
-        user: myrootuser
-        password: myrootpassword
